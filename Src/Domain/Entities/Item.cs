@@ -10,16 +10,9 @@ public class Item
 
     public string Name { get; private set; }
 
-	public Item(string locator, string name)
-	{
-		Guid = Guid.NewGuid();
-		Locator = locator;
-		Name = name;
-	}
-
-    public Item(Guid guid, string locator, string name)
+    public Item(Guid? guid, string locator, string name)
     {
-        Guid = guid;
+        Guid = guid ?? Guid.NewGuid();
         Locator = locator;
         Name = name;
     }

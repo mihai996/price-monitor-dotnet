@@ -13,10 +13,28 @@
     <None Remove="Src\" />
     <None Remove="Src\Domain\" />
     <None Remove="Src\Domain\Entities\" />
+    <None Remove="Src\Domain\Presentation\" />
+    <None Remove="Src\Domain\Synchronization\" />
+    <None Remove="Src\Domain\Synchronization\Parsing\" />
+    <None Remove="Src\Domain\Synchronization\Crawling\" />
+    <None Remove="Src\Domain\Synchronization\Scraping\" />
+    <None Remove="Src\Domain\Synchronization\Crawling\Entities\" />
+    <None Remove="Src\Domain\Synchronization\Crawling\Source\" />
+    <None Remove="Src\Domain\Synchronization\Crawling\Repository\" />
+    <None Remove="Src\Domain\Synchronization\Crawling\Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Src\" />
     <Folder Include="Src\Domain\" />
     <Folder Include="Src\Domain\Entities\" />
+    <Folder Include="Src\Domain\Presentation\" />
+    <Folder Include="Src\Domain\Synchronization\" />
+    <Folder Include="Src\Domain\Synchronization\Parsing\" />
+    <Folder Include="Src\Domain\Synchronization\Crawling\" />
+    <Folder Include="Src\Domain\Synchronization\Scraping\" />
+    <Folder Include="Src\Domain\Synchronization\Crawling\Entities\" />
+    <Folder Include="Src\Domain\Synchronization\Crawling\Source\" />
+    <Folder Include="Src\Domain\Synchronization\Crawling\Repository\" />
+    <Folder Include="Src\Domain\Synchronization\Crawling\Services\" />
   </ItemGroup>
 </Project>
