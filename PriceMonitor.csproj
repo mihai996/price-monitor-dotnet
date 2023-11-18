@@ -33,7 +33,6 @@
     <Folder Include="Src\Domain\Synchronization\Crawling\" />
     <Folder Include="Src\Domain\Synchronization\Scraping\" />
     <Folder Include="Src\Domain\Synchronization\Crawling\Entities\" />
-    <Folder Include="Src\Domain\Synchronization\Crawling\Source\" />
     <Folder Include="Src\Domain\Synchronization\Crawling\Repository\" />
     <Folder Include="Src\Domain\Synchronization\Crawling\Services\" />
   </ItemGroup>

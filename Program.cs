@@ -9,8 +9,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.Configure<RazorViewEngineOptions>(options =>
 {
     options.ViewLocationFormats.Clear();
-    options.ViewLocationFormats.Add("~/Src/Infrastructure/Web/Views/{1}/{0}.cshtml");
-    options.ViewLocationFormats.Add("~/Src/Infrastructure/Web/Views/Shared/{0}.cshtml");
+    // options.ViewLocationFormats.Add("~/Src/Infrastructure/Web/{1}/{0}.cshtml");
 });
 
 
