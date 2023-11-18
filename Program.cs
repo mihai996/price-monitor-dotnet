@@ -1,7 +1,18 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Razor;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.Configure<RazorViewEngineOptions>(options =>
+{
+    options.ViewLocationFormats.Clear();
+    options.ViewLocationFormats.Add("~/Src/Infrastructure/Web/Views/{1}/{0}.cshtml");
+    options.ViewLocationFormats.Add("~/Src/Infrastructure/Web/Views/Shared/{0}.cshtml");
+});
+
 
 var app = builder.Build();
 
