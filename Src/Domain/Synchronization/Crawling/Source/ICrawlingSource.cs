@@ -1,5 +1,7 @@
 ﻿using System;
-namespace PriceMonitor.Domain.Synchronization.Crawling;
+using PriceMonitor.Domain.Synchronization.Crawling.Entities;
+
+namespace PriceMonitor.Domain.Synchronization.Crawling.Source;
 
 public interface ICrawlingSource
 {

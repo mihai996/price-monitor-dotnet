@@ -4,7 +4,7 @@ namespace PriceMonitor.Domain.Entities;
 
 public class Item
 {
-	public Guid Guid { get; private set; }
+    public Guid Guid { get; private set; }
 
     public string Locator { get; private set; }
 
